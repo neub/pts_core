@@ -1,7 +1,26 @@
-*.py[cod]
+# OS generated     #
+####################
+*.bak
+*.*\#
+\#*
+.\#*
+*.*~
+*.swp
+*.cache
+Thumbs.db
 
-# C extensions
+# Compiled source #
+###################
+*.bit
+*.exe
+*.o
+*.a
 *.so
+*.wlf
+*.vstf
+*.vcd
+*.pyc
+*.py[cod]
 
 # Packages
 *.egg
@@ -34,3 +53,17 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+
+# Eclipse         #
+###################
+.library_mapping.xml
+.project
+.cproject
+.settings/*
+
+# Binaries Files  #
+###################
+*.zip
+*.tar.gz
+*.bin
